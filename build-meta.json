@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:28:48Z",
+  "generated_at": "2026-09-20T07:52:14Z",
   "builder_version": "v11.6-reconcile-validator-fixed",
   "build_mode": "incremental",
   "effective_full_reconciliation": false,
@@ -12,7 +12,7 @@
     "anidb_titles": true,
     "scudlee": false
   },
-  "final_file_sha256": "f0bd474a3cb52d87eee49296d652eccc9b8973548e4297171328024175c93481",
+  "final_file_sha256": "889f6db4f9b545cfc35858dff130d269b178791f22ae4e04b5b973271346a649",
   "fribb_baseline": {
     "records": 39304,
     "with_mal_id": 30781,
@@ -21,8 +21,8 @@
     "preservation_check": "not-required-in-incremental"
   },
   "anilist_official_verification": {
-    "targets": 10533,
-    "resolved": 754,
+    "targets": 10464,
+    "resolved": 670,
     "rolling_daily_batch": 1000
   },
   "sources": [
@@ -36,33 +36,33 @@
     "TMDB API"
   ],
   "counts": {
-    "records": 239128,
+    "records": 244409,
     "with_mal_id": 30804,
     "with_anilist_id": 22505,
-    "with_anidb_id": 16255,
-    "with_kitsu_id": 65184,
-    "with_animenewsnetwork_id": 63026,
-    "with_anime-planet_id": 92995,
-    "with_anisearch_id": 70227,
-    "with_livechart_id": 19288,
-    "with_simkl_id": 18240,
-    "with_animecountdown_id": 18240,
-    "with_tvdb_id": 8336,
-    "with_imdb_id": 8942,
-    "with_themoviedb_id": 9679,
-    "with_season": 8010,
+    "with_anidb_id": 16256,
+    "with_kitsu_id": 66690,
+    "with_animenewsnetwork_id": 63519,
+    "with_anime-planet_id": 95284,
+    "with_anisearch_id": 71707,
+    "with_livechart_id": 19494,
+    "with_simkl_id": 18292,
+    "with_animecountdown_id": 18292,
+    "with_tvdb_id": 8337,
+    "with_imdb_id": 8943,
+    "with_themoviedb_id": 9680,
+    "with_season": 8011,
     "with_episode_offset": 723,
-    "records_above_fribb_baseline": 199824,
+    "records_above_fribb_baseline": 205105,
     "new_records_appended_this_run": 0,
     "fribb_rows_enriched": 0,
     "fribb_updates_merged_into_previous": 376,
     "fribb_new_records_merged_into_previous": 5281,
     "new_mal_ids_detected": 0,
-    "records_updated": 1699,
-    "records_unchanged_after_recheck": 25249,
-    "anilist_verified": 754,
+    "records_updated": 1700,
+    "records_unchanged_after_recheck": 25251,
+    "anilist_verified": 670,
     "anilist_conflicts_preserved_from_fribb": 0,
     "fallback_title_matches": 2032,
-    "mal_without_anidb_mapping": 12316
+    "mal_without_anidb_mapping": 12319
   }
 }
