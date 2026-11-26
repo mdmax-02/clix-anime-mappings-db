@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-25T11:33:25Z",
+  "generated_at": "2026-11-26T11:15:42Z",
   "builder_version": "v11.6-reconcile-validator-fixed",
   "build_mode": "incremental",
   "effective_full_reconciliation": false,
   "schema": "Fribb anime-list-full compatible superset",
   "main_file_has_custom_fields": false,
   "source_changes": {
-    "fribb_baseline": true,
+    "fribb_baseline": false,
     "base_mapping": true,
     "animeapi": true,
     "anidb_titles": true,
     "scudlee": false
   },
-  "final_file_sha256": "4cc0f89413fd4a1d5e1dfc7b609f43286a07b2ff71d5571c0cd546abefda3448",
+  "final_file_sha256": "ede44fc03283bbcf99693cf1612ed725a5188be0fbbcf4dfd775c84b92d78070",
   "fribb_baseline": {
     "records": 39846,
     "with_mal_id": 31030,
@@ -21,8 +21,8 @@
     "preservation_check": "not-required-in-incremental"
   },
   "anilist_official_verification": {
-    "targets": 11166,
-    "resolved": 1189,
+    "targets": 11206,
+    "resolved": 1185,
     "rolling_daily_batch": 1000
   },
   "sources": [
@@ -36,33 +36,33 @@
     "TMDB API"
   ],
   "counts": {
-    "records": 605101,
+    "records": 610653,
     "with_mal_id": 31221,
-    "with_anilist_id": 22660,
+    "with_anilist_id": 22661,
     "with_anidb_id": 16393,
-    "with_kitsu_id": 168431,
-    "with_animenewsnetwork_id": 97198,
-    "with_anime-planet_id": 247664,
-    "with_anisearch_id": 175733,
-    "with_livechart_id": 33475,
-    "with_simkl_id": 24634,
-    "with_animecountdown_id": 24634,
-    "with_tvdb_id": 8483,
-    "with_imdb_id": 9120,
-    "with_themoviedb_id": 9873,
-    "with_season": 8128,
+    "with_kitsu_id": 169992,
+    "with_animenewsnetwork_id": 97730,
+    "with_anime-planet_id": 249985,
+    "with_anisearch_id": 177326,
+    "with_livechart_id": 33689,
+    "with_simkl_id": 24761,
+    "with_animecountdown_id": 24761,
+    "with_tvdb_id": 8485,
+    "with_imdb_id": 9122,
+    "with_themoviedb_id": 9875,
+    "with_season": 8129,
     "with_episode_offset": 739,
-    "records_above_fribb_baseline": 565255,
+    "records_above_fribb_baseline": 570807,
     "new_records_appended_this_run": 0,
     "fribb_rows_enriched": 0,
-    "fribb_updates_merged_into_previous": 424,
-    "fribb_new_records_merged_into_previous": 5610,
+    "fribb_updates_merged_into_previous": 405,
+    "fribb_new_records_merged_into_previous": 5552,
     "new_mal_ids_detected": 0,
-    "records_updated": 1710,
-    "records_unchanged_after_recheck": 25460,
-    "anilist_verified": 1189,
+    "records_updated": 1699,
+    "records_unchanged_after_recheck": 25543,
+    "anilist_verified": 1185,
     "anilist_conflicts_preserved_from_fribb": 0,
     "fallback_title_matches": 1912,
-    "mal_without_anidb_mapping": 12425
+    "mal_without_anidb_mapping": 12526
   }
 }
